@@ -3,8 +3,8 @@
   "description": "An ExpressJS application using the MVC design pattern, created by Pham Yen",
   "version": "1.0.1",
   "scripts": {
-    "test": "NODE_ENV=staging forever start app.js",
-    "start": "NODE_ENV=production forever start app.js"
+    "test": "NODE_ENV=staging node start app.js",
+    "start": "NODE_ENV=production node start app.js"
   },
   "dependencies": {
     "async": "*",
